@@ -1,0 +1,38 @@
+
+.container {
+    margin-top: 20px;
+}
+
+
+.image-cropper {
+  
+    padding: 10px;
+    display: none;
+    max-width: 100%;
+}
+
+
+#image {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.btn {
+    margin-top: 10px;
+}
+
+
+#resize-controls {
+    margin-top: 20px;
+    display: none;
+}
+
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+
+
+}
