@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>How to crop image in triangle shape by using Cropper.js</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.css" />
+    <link rel="stylesheet" href="tri.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6" align="center">
+          <label>Browse image</label>
+          <div id="display_image_div">
+            <img name="display_image_data" id="display_image_data" src="dummy-image.png" alt="Picture">
+          </div>
+          <br>
+          <input type="file" name="browse_image" id="browse_image" class="form-control">
+        </div>
+        <div class="col-lg-6" align="center">
+          <button type="button" class="btn btn-success" id="crop_button">Crop and Download</button>
+        </div>
+      </div>
+    </div>
+    <!-- end container -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.js"></script>
+    <script src="tri.js"></script>
+  </body>
+</html>

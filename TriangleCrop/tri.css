@@ -1,0 +1,20 @@
+.container {
+  margin: 20px auto;
+  max-width: 640px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.cropper-view-box,
+.cropper-face {
+  /*border-radius: 50%;*/
+  clip-path: polygon(1% 78%, 46% 2%, 49% 0, 54% 0, 57% 2%, 98% 78%, 98% 83%, 95% 87%, 89% 88%, 6% 89%, 2% 87%, 0 83%);
+}
+
+/* The CSS styles for `outline` do not follow `border-radius` on iOS/Safari (#979). */
+.cropper-view-box {
+  outline: 0;
+  box-shadow: 0 0 0 1px #39f;
+}
